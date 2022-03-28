@@ -1,0 +1,10 @@
+
+[Info]: [Int32] : message1
+[Warning] : [Int32] : message2
+[Error] : [Int32] : message3. error
+[Info]: [String] : message1
+[Warning] : [String] : message2
+[Error] : [String] : message3. error
+[Info]: [Char] : message1
+[Warning] : [Char] : message2
+[Error] : [Char] : message3. error
