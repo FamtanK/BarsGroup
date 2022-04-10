@@ -26,7 +26,7 @@ namespace Streams
             Console.WriteLine("Приложение завершает работу.");
         }
 
-        static void StartingHandleRequest(string message, string[] args, string id)
+        static void StartHandleRequest(string message, string[] args, string id)
         {
             var ecz = new DummyRequestHandler();
             try
