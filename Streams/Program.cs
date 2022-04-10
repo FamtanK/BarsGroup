@@ -28,10 +28,10 @@ namespace Streams
 
         static void StartHandleRequest(string message, string[] args, string id)
         {
-            var ecz = new DummyRequestHandler();
+            var dummyRequestHandler = new DummyRequestHandler();
             try
             {
-                string res = ecz.HandleRequest(message, args);
+                string res = dummyRequestHandler.HandleRequest(message, args);
                 Console.WriteLine($"Сообщение с идентификатором {id} получило ответ: {res}");
             }
             catch (Exception ex)
